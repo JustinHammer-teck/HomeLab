@@ -1,0 +1,34 @@
+{
+	"nodes":[
+		{"id":"fe7b2125a2b3bedf","x":-44,"y":-93,"width":138,"height":84,"color":"5","type":"text","text":"TailScale"},
+		{"id":"906c3c135aaf12ec","x":-771,"y":-1031,"width":250,"height":60,"color":"3","type":"text","text":"Home Internet\n-- VPNT - Home Super 3"},
+		{"id":"9980c28dbf6c54e4","x":-771,"y":-925,"width":250,"height":50,"type":"text","text":"Router - Mikrotik"},
+		{"id":"c46afbab759fd913","x":-771,"y":-838,"width":250,"height":50,"type":"text","text":"SWITCH TP-SG108E"},
+		{"id":"d47b5592f5084380","x":322,"y":-485,"width":373,"height":166,"color":"5","type":"text","text":"Rocky - Infras\n-- 1CPU - 1GB ram\n- Docker \n- portainer/agent\n- TailScale\n- Gitlab Runner - docker"},
+		{"id":"cdf82054b939ea09","x":695,"y":-623,"width":250,"height":60,"color":"5","type":"text","text":"AZURE - VMS "},
+		{"id":"1e2c90e77912ffff","x":322,"y":-288,"width":373,"height":237,"type":"text","text":"Rocky - Infras - Host\n-- 1CPU - 0.5GB ram\n- TailScale\n- CloudFlare Tunnel\n- Docker \n- portainer/agent\n- Service self-host"},
+		{"id":"9e9c1a55828c6c61","x":-842,"y":-212,"width":282,"height":161,"color":"2","type":"text","text":"PROXMOX Server - CLUSTER\n\n-- 8 CPU - 8GB RAM\n"},
+		{"id":"e613ca7db73b4337","x":-489,"y":-111,"width":250,"height":120,"color":"2","type":"text","text":"DietPi\n- PIhole - service\n- Tailscale - with subnet"},
+		{"id":"29110b87f41b88fd","x":-489,"y":51,"width":250,"height":217,"color":"2","type":"text","text":"Rocky - Dev \n- Docker \n- portainer/agent\n- GitLab - docker\n"},
+		{"id":"e75fd82cfcdc38cd","x":-771,"y":661,"width":282,"height":150,"type":"text","text":"HP Z440 Server - Proxmox Cluster\n-- 32 CPU - 128 GB RAM\n-- 10Gbps NIC\n-- x2 2.5 Gbps NIC"},
+		{"id":"ed185cee1941922a","x":-489,"y":854,"width":250,"height":217,"type":"text","text":"DietPi \n- PIhole - service\n- Tailscale\n- Docker / Rancher\n- Portainer\n- Monitoring Node"},
+		{"id":"84652741069403d3","x":-489,"y":331,"width":250,"height":217,"color":"2","type":"text","text":"Rocky - Infras \n- Docker \n- portainer/agent\n- GitLab - docker\n"},
+		{"id":"c1a3ccfb195eade1","x":-842,"y":-641,"width":282,"height":353,"color":"4","type":"text","text":"My Machine\n-- 12CPU - 16 GB RAM\n-- 1Gbps NIC\n- Docker\n- Docker Portainer \n- TailScale\n- 1password cli vault - docker"},
+		{"id":"50c51ae74994088e","x":-1215,"y":-584,"width":250,"height":99,"color":"2","type":"text","text":"Gitpod Dev Env\n-- 8CPU - 16GB RAM \n-- 50h / months"}
+	],
+	"edges":[
+		{"id":"d85b79ccce28f0af","fromNode":"9e9c1a55828c6c61","fromSide":"bottom","toNode":"e613ca7db73b4337","toSide":"left","color":"2"},
+		{"id":"d81e6ac402d418ae","fromNode":"9e9c1a55828c6c61","fromSide":"bottom","toNode":"29110b87f41b88fd","toSide":"left","color":"2"},
+		{"id":"bf453bb06ee2d4c1","fromNode":"cdf82054b939ea09","fromSide":"bottom","toNode":"d47b5592f5084380","toSide":"right","color":"5"},
+		{"id":"6e3bde1ed13fcbe0","fromNode":"d47b5592f5084380","fromSide":"left","toNode":"fe7b2125a2b3bedf","toSide":"right","color":"5"},
+		{"id":"36117da1404e1242","fromNode":"e613ca7db73b4337","fromSide":"right","toNode":"fe7b2125a2b3bedf","toSide":"left","color":"5"},
+		{"id":"c0f4d83c7cdacb04","fromNode":"c1a3ccfb195eade1","fromSide":"right","toNode":"fe7b2125a2b3bedf","toSide":"left","color":"5"},
+		{"id":"b027a10712d87b36","fromNode":"cdf82054b939ea09","fromSide":"bottom","toNode":"1e2c90e77912ffff","toSide":"right"},
+		{"id":"9329bc5cd06a1479","fromNode":"1e2c90e77912ffff","fromSide":"left","toNode":"fe7b2125a2b3bedf","toSide":"right"},
+		{"id":"c87478a1cc6995be","fromNode":"e75fd82cfcdc38cd","fromSide":"bottom","toNode":"ed185cee1941922a","toSide":"left"},
+		{"id":"e9ab13e401e4551f","fromNode":"ed185cee1941922a","fromSide":"right","toNode":"fe7b2125a2b3bedf","toSide":"bottom"},
+		{"id":"41983a1248d894bf","fromNode":"906c3c135aaf12ec","fromSide":"bottom","toNode":"9980c28dbf6c54e4","toSide":"top"},
+		{"id":"8447ac0cd7d9dbda","fromNode":"50c51ae74994088e","fromSide":"bottom","toNode":"c1a3ccfb195eade1","toSide":"left","color":"2"},
+		{"id":"283293fd8af6d19c","fromNode":"9e9c1a55828c6c61","fromSide":"bottom","toNode":"84652741069403d3","toSide":"left"}
+	]
+}

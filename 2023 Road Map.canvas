@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"74222f5e618e8421","x":-491,"y":-369,"width":250,"height":175,"type":"text","text":"Freelancing\n- Finish implementaion for Wordle Solver \n- Deploy To Production"},
+		{"id":"00219d404fb8d6c7","x":-523,"y":-140,"width":282,"height":230,"type":"text","text":"Cloud Computing\n- How to Secure Azure VM\n- Azure 900 Cert\n- Deploy A Blog"},
+		{"id":"c73f01f00a8b6f63","x":-491,"y":136,"width":250,"height":252,"type":"text","text":"Home Network\n- New Server\n- New router\n- setting up network for homelab env.\n- Infrastructor ready "},
+		{"id":"9e9d151cfbfb1b53","x":-114,"y":-518,"width":250,"height":50,"type":"text","text":"** Start **"},
+		{"id":"0f4da2197afbe42b","x":199,"y":-369,"width":429,"height":256,"type":"text","text":"Development\n- PluralSight - Asynchronous Programming cert\n- Dotnet Core 6\n-  VueJs 3\n- PocketBase - BaaS\n- Docker \n- Kubernetes - optional\n- Rancher - optional"},
+		{"id":"efbeb58cff0066ee","x":199,"y":-82,"width":250,"height":218,"type":"text","text":"DevOps\n- Gitlab\n- Ansible - optional\n- Terraform\n- Proxmox\n- 1password CLI\n- CloudFlare"},
+		{"id":"58725740ef2fc7f7","x":199,"y":190,"width":250,"height":145,"type":"text","text":"IDE\n- RIDER\n- ReShaper"},
+		{"id":"e034a8353f9d7870","x":680,"y":-418,"width":465,"height":753,"type":"text","text":"The GOAL !?!\n- Gain knowledge on .net core and strenghtent c# coding skill.\n\t- Have a fundamental understanding on asynchronous programming.\n\t- pratice SOLID\n\t- get better at unit test and Test Driven Development.\n\t- understand Domain Driven Design\n- Is to gain more understanding Devops like \n\t- Automation - Update and Monitoring Servers\n\t- Create CICD pipeline to integrate with development workflow -> automation build and deployment code.\n\t- Understanding provisioning infrastructure with terraform.\n- Understand the fundamental aspect of networking and put some rule to homenetwork \n\t- Using Firewall\n\t- Router\n\t- Set up VLAN for better home security  \n- SelfHosting \n\t- Using Cloudflare tunnel to deploy a Portfolio website.\n\t- Make a website out of VueJs\n- "}
+	],
+	"edges":[
+		{"id":"5d1dd7eebcb91fe1","fromNode":"9e9d151cfbfb1b53","fromSide":"bottom","toNode":"74222f5e618e8421","toSide":"right","color":"2"},
+		{"id":"2c04d83c80dfa3f8","fromNode":"9e9d151cfbfb1b53","fromSide":"bottom","toNode":"0f4da2197afbe42b","toSide":"left"},
+		{"id":"a6770490317c1521","fromNode":"9e9d151cfbfb1b53","fromSide":"bottom","toNode":"00219d404fb8d6c7","toSide":"right","color":"2"},
+		{"id":"8da30dbd4498fd66","fromNode":"9e9d151cfbfb1b53","fromSide":"bottom","toNode":"efbeb58cff0066ee","toSide":"left"},
+		{"id":"faf4a0489045667f","fromNode":"9e9d151cfbfb1b53","fromSide":"bottom","toNode":"c73f01f00a8b6f63","toSide":"right"},
+		{"id":"d82d494f7d14b4aa","fromNode":"9e9d151cfbfb1b53","fromSide":"bottom","toNode":"58725740ef2fc7f7","toSide":"left"}
+	]
+}

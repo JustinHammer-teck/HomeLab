@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"ba505677ff0e954c","x":-373,"y":-438,"width":250,"height":60,"type":"text","text":"----- | -------"},
+		{"id":"0ad71c60f841dd19","x":-493,"y":-838,"width":250,"height":60,"color":"1","type":"text","text":"Dotnet Core Road Map \n"}
+	],
+	"edges":[]
+}
